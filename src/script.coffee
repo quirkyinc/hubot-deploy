@@ -1,4 +1,4 @@
-# Description
+e# Description
 #   Cut GitHub deployments from chat that deploy via hooks - https://github.com/atmos/hubot-deploy
 #
 # Commands:
@@ -79,7 +79,7 @@ module.exports = (robot) ->
       return
 
     deployment.room = msg.message.user.room
-    deployment.user = msg.envelope.user.mention_name
+    deployment.user = msg.envelope.user.name
 
     deployment.adapter = robot.adapterName
 
