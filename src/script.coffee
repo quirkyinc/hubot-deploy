@@ -1,4 +1,4 @@
-e# Description
+# Description
 #   Cut GitHub deployments from chat that deploy via hooks - https://github.com/atmos/hubot-deploy
 #
 # Commands:
